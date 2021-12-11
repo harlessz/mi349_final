@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family:Kufic, 'Reem Kufi';
+    font-family:'Reem Kufi';
     margin: 50px;
     padding: 25px;
     color: black;
@@ -48,18 +48,22 @@ a[href='future.html'] {
 
 .achievement-left {
     border-bottom: 1px dashed black;
+    text-align: left;
 }
 
 .achievement-right {
     border-bottom: 1px dashed black;
+    text-align: right;
 }
 
 .goal-left {
     border-bottom: 1px dashed black;
+    text-align: left;
 }
 
 .goal-right {
     border-bottom: 1px dashed black;
+    text-align: right;
 }
 
 #sign-up-box {
