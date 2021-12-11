@@ -10,10 +10,6 @@ body {
     background: #ECF8F7;
 }
 
-header {
-    text-align: right;
-}
-
 h1 {
     font-size: 4em;
     margin: 0;
@@ -28,6 +24,11 @@ h2 {
 h3 {
     font-size: 2em;
     margin: 2.5px;
+}
+
+nav {
+    font-size: 3em;
+    margin: 2px;
 }
 
 p {
