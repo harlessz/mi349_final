@@ -1,0 +1,78 @@
+html {
+    background: beige;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 50px;
+    padding: 25px;
+    color: black;
+    border-top: 10px solid black;
+    background: beige;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3em;
+    margin: 5px;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 2.5px;
+}
+
+p {
+    line-height: 1em;
+}
+
+a[href='index.html'] {
+    color: forestgreen;
+}
+
+a[href='future.html'] {
+    color: forestgreen;
+}
+
+#future {
+    border-top: 2px dashed black;
+    border-bottom: 1px dashed black;
+}
+#present {
+    border-top: 2px dashed black;
+}
+
+.achievement-left {
+    border-bottom: 1px dashed black;
+}
+
+.achievement-right {
+    border-bottom: 1px dashed black;
+}
+
+#sign-up-box {
+    margin: 25px;
+    padding: 10px;
+    border-bottom: 5px solid black;
+}
+
+.forms {
+    margin: 20px;
+    padding: 5px;
+}
+
+.forms:nth-of-type(1){
+  flex: 2;
+}
+
+.forms:nth-of-type(2){
+  flex: 3;
+}
+
+.forms:nth-of-type(3){
+  flex: 3;
+}
