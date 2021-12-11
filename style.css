@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Kufic, 'Reem Kufi';
     margin: 50px;
     padding: 25px;
     color: black;
@@ -84,3 +84,7 @@ a[href='future.html'] {
 .forms:nth-of-type(3){
   flex: 3;
 }
+
+.dateStyle {
+    font-size: 2em;
+ }
