@@ -1,5 +1,5 @@
 html {
-    background: beige;
+    background: #ECF8F7;
 }
 
 body {
@@ -8,7 +8,7 @@ body {
     padding: 25px;
     color: black;
     border-top: 10px solid black;
-    background: beige;
+    background: #ECF8F7;
 }
 
 h1 {
@@ -51,6 +51,14 @@ a[href='future.html'] {
 }
 
 .achievement-right {
+    border-bottom: 1px dashed black;
+}
+
+.goal-left {
+    border-bottom: 1px dashed black;
+}
+
+.goal-right {
     border-bottom: 1px dashed black;
 }
 
