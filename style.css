@@ -7,13 +7,13 @@ body {
     margin: 50px;
     padding: 25px;
     color: black;
-    border-top: 10px solid black;
     background: #ECF8F7;
 }
 
 h1 {
     font-size: 4em;
     margin: 0;
+    text-align:'left';
 }
 
 h2 {
@@ -92,3 +92,21 @@ a[href='future.html'] {
 .dateStyle {
     font-size: 2em;
  }
+
+ .contacts {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contacts li {
+    width: 30px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.contacts li a img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
